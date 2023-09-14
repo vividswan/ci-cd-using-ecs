@@ -33,7 +33,7 @@ on:
 env:
   AWS_REGION: ap-northeast-2
   ECR_REPOSITORY: vividswan-ecr
-  ECS_SERVICE: vividswan-ecr-service
+  ECS_SERVICE: vividswan-ecs-service
   ECS_CLUSTER: vividswan-ecs
   ECS_TASK_DEFINITION: .aws/task-definition.json
 
